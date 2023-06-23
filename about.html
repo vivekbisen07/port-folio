@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div id="main">
+        <video src="./istockphoto-1366783063-640_adpp_is.mp4" autoplay muted></video>
+
+        <div id="leftbar">
+            <a href="Home.html">Home</a>
+            <a href="My_project.html" target="_blank">My_project</a>
+            <a href="Intro.html">Contact</a>
+            <a href="Blog.html">Guide</a>
+      </div>
+      <div id="rightbar">
+        <h2>Contact me for more details...</h2>
+        <div id="rightContent">
+        <form action="">
+            <div id="Name">
+                <h5>Name</h5>
+                <label for="Name"></label> <input type="Name" placeholder="Enter your name">
+            </div>
+            <div id="email">
+                <h5>Email</h5>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div id="phone">
+                <h5>Number</h5>
+                <input type="phone" placeholder="Enter your phone Number">
+            </div>
+            <div id="checkbox">
+                <input type="checkbox" i agree all condition>
+                <h5>I agree all terms and condition</h5>
+            </div>
+        </form>
+    </div>
+   <div id="button">
+    <a href="button.html">
+        <button>Submit</button>
+    </a>
+   </div>
+        </div>
+    </div>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+#main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#leftbar{
+    position: relative;
+    width: 13vw;
+    background-color: rgba(97, 176, 240, 0.148);
+}
+#leftbar>a{
+    margin-top: 50%;
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+    text-decoration: none;
+    color: rgb(4, 46, 83);
+}
+#leftbar>a:hover{
+    scale: 1.5;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 3s;
+}
+#rightbar{
+    position: relative;
+    width: 90vw;
+    
+}
+h2{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    font-size: 50px;
+}
+
+
+#rightContent>form{
+   display: flex;
+   flex-direction: column;
+   margin-left: 25%;
+   margin-top: 15%;
+   gap: 20px;
+}
+h5{
+    font-size: 22px
+}
+
+#button{
+margin-left: 24.9%;
+margin-top: 10px;
+}
+button{
+width: 5vw;
+padding: 6px 14px;
+border-radius: 10px;
+margin-top: 10px;
+background-color: rgb(99, 199, 243);
+color: aliceblue;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+color: black;
+}
+video{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+}
+#leftInfo-tag>a{
+    text-decoration: none;
+}
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+</head>
+<body>
+    <div id="main">
+        <video src="./istockphoto-1366783063-640_adpp_is.mp4" autoplay muted></video>
+
+        <div id="leftbar">
+            <a href="Home.html">Home</a>
+            <a href="My_project.html" target="_blank">My_project</a>
+            <a href="Intro.html">Information</a>
+            <a href="Blog.html">Guide</a>
+      </div>
+      <div id="rightbar">
+        <div id="About">
+            <h1>About me-</h1>
+            <p>Hello everyone ! <br> My name is Vivek Bisen . <br> I am studying at technocrats institute of technology and currently I am pursuing Btech in IT branch . </p>
+        </div>
+        <div id="skill">
+            <div class="myskill">
+                HTML:<div id="skill1"></div>
+            </div>
+            <div class="myskill">
+                CSS:<div id="skill2"></div>
+            </div>
+            <div class="myskill">
+                JAVA:<div id="skill3"></div>
+            </div>
+            <div class="myskill">
+                JAVASCRIPT:<div id="skill4"></div>
+            </div>
+            <div class="myskill">
+                MICROSOFT EXCEL:<div id="skill5"></div>
+            </div>
+            <div class="myskill">
+                NODE.JS:<div id="skill6"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+#main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#leftbar{
+    position: relative;
+    width: 13vw;
+    background-color: rgba(97, 176, 240, 0.148);
+}
+#leftbar>a{
+    margin-top: 50%;display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+    text-decoration: none;
+    color: rgb(4, 46, 83);
+}
+#leftbar>a:hover{
+    scale: 1.5;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 3s;
+}
+#About{
+    width: 85vh;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: gilroy;
+  
+}
+#About>p{
+    font-size: 20px;
+    color: rgb(97, 165, 232);
+    z-index: 999999;
+}
+#About>h1{
+    font-size: 30px;
+    font-weight: normal;
+    z-index: 999999;
+}
+#skill{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.myskill{
+   display: flex;
+   align-items: center;
+   z-index: 999999;
+}
+#skill1{
+    height: 10px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+}
+#skill2{
+    height: 10px;
+    width: 190px;
+    background-color: rgb(255, 0, 0);
+}
+#skill3{
+    height: 10px;
+    width: 180px;
+    background-color: rgb(255, 0, 0);
+}
+#skill4{
+    height: 10px;
+    width: 100px;
+    background-color: red;
+}
+#skill5{
+    height: 10px;
+    width: 100px;
+    background-color: red;
+}
+#skill6{
+    height: 10px;
+    width: 100px;
+    background-color: red;
+}
+video{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+}
+#leftInfo-tag>a{
+    text-decoration: none;
+}
+    </style>
+</body>
+</html>
